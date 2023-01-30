@@ -1,0 +1,50 @@
+/* This fulfills requirement 3.2.2 F i.) */
+/* Grid Styles*/
+div.row {
+    clear: both;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"] {
+    /* This fulfills requirement 3.2.2 F ii.) */
+    /* Floats ever col on the left */
+    float: left;
+}
+
+div.col-1-1 {
+    width: 100%;
+}
+
+div.col-1-2 {
+    width: 50%;
+}
+
+div.col-1-3 {
+    width: 33.33%;
+}
+
+div.col-2-3 {
+    width: 66.67%;
+}
+
+div.col-1-4 {
+    width: 25%;
+}
+
+div.col-3-4 {
+    width: 75%;
+}
+
+
+footer {
+    text-align: center;
+}
+
+div {
+    outline: 0px solid blue;
+}
