@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* HTML & Body Styles */
+/* This fulfills requirement 3.2.2 B) */
+html,
+body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Righteous', cursive;
+}
+
+.grid {
+     margin-left: auto;
+     margin-right: auto;
+     width: 95%;
+     max-width: 900px;
+}
+
+/* Header */
+/* This fulfills requirement 3.2.2 A) */
+header {
+     /* This fulfills requirement 3.2.2 E) */
+     background-color: rgba(0, 0, 0, 0.5);
+     background-image: url("Images & vids/headerIMG.jpg");
+     background-blend-mode: multiply;
+     background-size: cover;
+     padding-bottom: 20px;
+     /* This fulfills requirement 3.2.7 A) */
+     width: 100%;
+}
+
+.header-text {
+     text-align: center;
+     margin: 0;
+     font-size: 5em;
+     color: white;
+     padding-right: 20px;
+}
+
+header img {
+     width: 20%;
+     height: 10%;
+     min-height: 50px;
+     max-width: 50px;
+     float: left;
+     padding: 20px 0px 0px 2%;
+     box-sizing: initial;
+}
+
+.nav {
+     text-align: center;
+     padding-bottom: 10px;
+}
+
+.nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+
+.nav li {
+     display: inline;
+     padding: 0 2%;
+}
+
+.nav a {
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: 1%;
+}
+
+.nav a:hover {
+     /* This fulfills requirement 3.2.2 C) */
+     background-color: rgba(255, 255, 255, 0.3);
+     background-color: hsla(0, 0, 2%, 0.3);
+     transform: scale(110%);
+}
+
+.sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     min-height: 100px;
+}
+
+
+/* After Header */
+.main-img {
+     width: 100%;
+     height: 1000px;
+     object-fit: cover;
+     text-align: center;
+}
+
+.main-sec {
+     text-align: center;
+     font-size: 20px;
+}
+
+.sec2 {
+     text-align: center;
+     font-size: 20px;
+}
+
+.sec2-header h2 {
+     background-color: rgb(212, 212, 212);
+     padding: 5px 0px 5px 0px;
+}
+
+.page-btn {
+     color: white;
+     background-color: #0047AB;
+     padding: 10px;
+     font-family: 'Righteous', cursive;
+     font-size: 20px;
+     border: 0px;
+     margin-bottom: 10px;
+     /* This fulfills requirement 3.2.2 G) */
+     box-shadow: 3px 5px #888888;
+     text-shadow: 2px 2px #888888;
+     border-radius: 5%;
+
+}
+
+.page-btn:hover {
+     background-color: rgba(0, 0, 0, 0.3);
+     transform: scale(110%);
+}
+
+/* This fulfills requirement 3.2.2 D) */
+
+/* unvisited link */
+.row a:link {
+     color: blue;
+}
+
+/* visited link */
+.row a:visited {
+     color: green;
+}
+
+/* mouse over link */
+.row a:hover {
+     color: lightblue;
+}
+
+/* selected link */
+.row a:active {
+     color: red;
+}
+
+/* Image Styles */
+/* This fulfills requirement 3.2.7 C) */
+#games-cover {
+     width: 50%;
+     height: 50%;
+}
+
+/* Animation */
+
+/* This fulfills requirement 3.2.5 B) */
+.img-zoom {
+     transition: transform .6s;
+}
+
+.img-zoom:hover {
+     transform: scale(110%);
+}
+
+/* Side Bar Styles */
+.sidebar {
+     text-align: left;
+     background-color: whitesmoke;
+}
+
+.sidebar h2 {
+     color: white;
+     background-color: #0047AB;
+     padding: 5px;
+}
+
+.sidebar dt {
+     padding-bottom: 5px;
+     background-color: rgb(218, 218, 218);
+}
+
+.sidebar dd {
+     padding-bottom: 20px;
+}
+
+/* Timer */
+.timer {
+     text-align: center;
+}
+
+.timer p {
+     font-size: 50px;
+}
+
+/* Footer */
+.footer {
+     background-color: rgba(0, 0, 0, 0.5);
+     background-image: url("Images & vids/headerIMG.jpg");
+     background-blend-mode: multiply;
+     background-size: cover;
+     color: white;
+     padding: 20px;
+     font-size: 20px;
+}
+
+.footer img {
+     float: right;
+     max-width: 50px;
+     max-height: 50px;
+     box-sizing: initial;
+}
+
+.insta-img img {
+     padding-right: 20%;
+     /* This fulfills requirement 3.2.2 H 1) */
+     opacity: 0.5;
+}
+
+.steam-img img {
+     padding: 0px 50px 10px 0px;
+     /* This fulfills requirement 3.2.2 H 2) */
+     opacity: 0.5;
+}
+
+
+
+.sticky-down {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     width: 10%;
+     color: white;
+     text-align: center;
+     padding: 0px 0px 150px 10px;
+     opacity: 0.5;
+}
+
+#last-update {
+     padding: 10px 0px 20px 0px;
+     font-size: 15px;
+}
+
+footer p {
+     font-size: 15px;
+}
